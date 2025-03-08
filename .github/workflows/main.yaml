@@ -29,7 +29,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git config --global user.email "savantaakash322@gmail.com"
+          git config --global user.email "aakash.savantintellipaat@outlook.com"
           git config --global user.name "Aakash"
           git config --global credential.helper store
           echo "https://dsaakash:$HF_TOKEN@huggingface.co" > ~/.git-credentials
